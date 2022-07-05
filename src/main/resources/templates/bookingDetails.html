@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Booking Details</title>
+</head>
+<body>
+	<table border="2" >
+		<tr>
+			<td>Booking Id</td>
+			<td>Passenger Name</td>
+			<td>Flight Name</td>
+		</tr>
+
+		<tr>
+			<td th:text="${booking.bookingId}"></td>
+			<td th:text="${booking.pasengerName}"></td>
+			<td th:text="${booking.flightName}"></td>
+		</tr>
+
+	</table>
+
+</body>
+</html>
